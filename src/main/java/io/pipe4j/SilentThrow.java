@@ -7,9 +7,17 @@ public class SilentThrow {
     public static <T> T silent(Callable<T> callable) {
         try {
             return callable.call();
-        } catch (Exception e) {
+        } catch (Throwable e) {
             sneakyThrow(e);
             return null;
+        }
+    }
+
+    public static <T> T silent(Callable<T> callable, Fallback<T> fallback) {
+        try {
+            return callable.call();
+        } catch (Throwable e) {
+            return fallback.apply(e);
         }
     }
 
