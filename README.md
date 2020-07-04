@@ -32,6 +32,9 @@ Pipe4j gives you a straight forward way to handle exceptions, by using the `Sile
 
 
 ```java
+import io.pipe4j.Pipe4j;
+import static io.pipe4j.SilentThrow.silent;
+
 private void run() {
 
   Pipe4j<String, Integer> myPipe = (x) -> Integer.valueOf(x);
@@ -65,6 +68,9 @@ If you don't want to, you only need to provide a fallback/default value to the `
 
 Fallback:
 ```java
+import io.pipe4j.Pipe4j;
+import static io.pipe4j.SilentThrow.silent;
+
 private void run() {
 
   Pipe4j<String, Integer> myPipe = (x) -> Integer.valueOf(x);
@@ -92,6 +98,9 @@ public Integer toInt(Double value) throws IOException {
 Default value:
 
 ```java
+import io.pipe4j.Pipe4j;
+import static io.pipe4j.SilentThrow.silent;
+
 private void run() {
 
   Pipe4j<String, Integer> myPipe = (x) -> Integer.valueOf(x);
