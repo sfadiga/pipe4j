@@ -86,7 +86,7 @@ private void run() {
   }
 
 public Integer fallbackMethod(Throwable e) {
-  int fallbackValue = ThreadLocalRandom.current().nextInt(0, 100); // you may give a better fallback :)
+  int fallbackValue = ThreadLocalRandom.current().nextInt(0, 100); // generates a random int
   return fallbackValue;
 }
 
