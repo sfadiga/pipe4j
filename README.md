@@ -27,7 +27,7 @@ public void someMethod() {
 
 ### Exceptions
 
-Yeah, live is not easy (at all) and we need to handle with exceptions.  
+Yeah, life is not easy (at all) and we need to handle with exceptions.  
 Pipe4j gives you a straight forward way to handle exceptions, by using the `SilentThrow#silent()` method:
 
 
@@ -52,7 +52,7 @@ public Integer toInt(Double value) throws IOException {
 ```
 
 You may be asking yourself what about the try/catch block or adding the `throws` statement into the method signature.  
-Well, Pipe4j uses _Senaky Throw_ to manage exceptions, so this way, even your statement throws an checked exception, the code will be clear.  
+Well, Pipe4j uses _Sneaky Throw_ to manage exceptions, so this way, even your statement throws an checked exception, the code will be clear.  
 By the way, the code above results in:
 
 ```shell
