@@ -2,11 +2,8 @@
 
 [![Build Status](https://travis-ci.org/igventurelli/pipe4j.svg?branch=master)](https://travis-ci.org/igventurelli/pipe4j)
 [![Maintainability](https://api.codeclimate.com/v1/badges/381d36217cd7886630cb/maintainability)](https://codeclimate.com/github/igventurelli/pipe4j/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/381d36217cd7886630cb/test_coverage)](https://codeclimate.com/github/igventurelli/pipe4j/test_coverage)
 
 A simple and lightweight Java library to run statements in sequence (like a pipeline!)
-
-(The test coverage is higher than shown. The value is wrong because JaCoCo doesn't count interface code and Cobertura doesn't understand the `default` Java 8 keyword)
 
 ## Usage
 
