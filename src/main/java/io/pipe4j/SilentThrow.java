@@ -9,7 +9,7 @@ public class SilentThrow {
             return callable.call();
         } catch (Throwable e) {
             sneakyThrow(e);
-            return null;
+            return null; // this line is a unreachable code so it's impossible to be tested
         }
     }
 
