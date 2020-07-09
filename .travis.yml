@@ -5,7 +5,7 @@ jdk:
 
 cache:
   directories:
-    - ".m2"
+    - $HOME/.m2
 
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
