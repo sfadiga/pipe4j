@@ -1,8 +1,8 @@
 # Pipe4j
 
 [![Build Status](https://travis-ci.org/igventurelli/pipe4j.svg?branch=master)](https://travis-ci.org/igventurelli/pipe4j)
-[![Maintainability](https://api.codeclimate.com/v1/badges/381d36217cd7886630cb/maintainability)](https://codeclimate.com/github/igventurelli/pipe4j/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/igventurelli/pipe4j/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/igventurelli/pipe4j?targetFile=pom.xml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/381d36217cd7886630cb/maintainability)](https://codeclimate.com/github/igventurelli/pipe4j/maintainability)
 
 A simple and lightweight Java library to run statements in sequence (like a pipeline!)
 
