@@ -6,6 +6,8 @@
 
 A cleaner way to write Java code, through a pipeline
 
+Pipe4j creates a new and cleaner way for developers to write code through a pipeline
+
 ## Highlights
 - The ability to chain all method calls in a single path
 - Receive the result of the last operation as the input for the next one
