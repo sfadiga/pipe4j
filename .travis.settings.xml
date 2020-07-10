@@ -30,7 +30,7 @@
     <server>
       <id>github</id>
       <username>igventurelli</username>
-      <password>${env.GH_TOKEN}</password>
+      <password></password>
     </server>
   </servers>
 
