@@ -9,3 +9,10 @@ cache:
 
 script:
   - mvn test
+
+deploy:
+  - provider: script
+    script: bash mvn deploy
+    skip_cleanup: true
+    on:
+      branch: master
