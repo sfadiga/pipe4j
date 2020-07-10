@@ -14,7 +14,7 @@ deploy:
   - provider: script
     script: sed -i.bak  "s/<password>.*<\/password>/<password>${GH_TOKEN}<\/password>/g" .travis.settings.xml \
       && cp .travis.settings.xml $HOME/.m2/settings.xml \
-      && cat .travis.settings.xml && mvn deploy
+      && mvn deploy
     skip_cleanup: true
     on:
       branch: master
